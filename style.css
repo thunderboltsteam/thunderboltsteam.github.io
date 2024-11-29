@@ -1,74 +1,88 @@
-/* Body and Header Styling */
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1a1a1a; /* Dark background */
-    color: #fff; /* White text for contrast */
-
-    text
-    ::contentReference[oaicite:
-
-    1 ] {
-    index = 1
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    text-align: center; /* Center-align all content */
 }
 
-
-
-    header {
+/* Header */
+header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 10px 20px;
-    background-color: #000; /* Black header */
-    border-bottom: 3px solid #8B0000; /* Dark red accent */
+    padding: 20px;
+    background-color: #000;
+    border-bottom: 3px solid #FF0000; /* Red accent */
 }
 
-/* Logo and Text */
 .logo-container {
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
 .logo {
-    max-width: 40px; /* Smaller logo */
-    max-height: 40px;
-    margin-right: 10px;
+    max-width: 50px;
+    max-height: 50px;
 }
 
 .logo-text {
-    font-size: 1.8em;
+    font-size: 2em;
     font-weight: bold;
-    color: #fff;
+    color: #FF0000; /* Red logo text */
 }
 
-/* Navigation Menu */
+/* Navigation */
+nav {
+    background-color: #111; /* Slightly lighter black */
+    padding: 10px 0;
+    border-bottom: 2px solid #FF0000; /* Red accent */
+}
+
 .nav-links {
     list-style: none;
-    display: flex;
-    margin: 0;
     padding: 0;
-}
-
-.nav-links li {
-    margin: 0 15px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 .nav-links a {
     text-decoration: none;
     color: #fff;
-    font-size: 1.1em;
-    transition: color 0.3s;
+    font-size: 1.2em;
+    padding: 5px 15px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .nav-links a:hover {
-    color: #8B0000; /* Dark red on hover */
+    background-color: #FF0000; /* Red hover */
+    color: #000; /* Black text on hover */
+    border-radius: 5px;
+}
+
+/* Main Content */
+main {
+    padding: 50px 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #FF0000; /* Red title */
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
 }
 
 /* Buttons */
 .button-container {
-    margin-top: 20px;
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -77,24 +91,22 @@ body {
 .button {
     padding: 10px 20px;
     font-size: 1em;
-    font-weight: bold;
     color: #fff;
-    background-color: #8B0000; /* Dark red button */
+    background-color: #FF0000; /* Red button */
     text-decoration: none;
     border-radius: 5px;
-    transition: background-color 0.3s, transform 0.2s;
+    transition: background-color 0.3s, transform 0.3s;
 }
 
 .button:hover {
-    background-color: #ff4040; /* Lighter red on hover */
+    background-color: #cc0000; /* Darker red */
     transform: scale(1.05);
 }
 
 /* Footer */
 footer {
-    text-align: center;
-    padding: 15px 0;
     background-color: #000;
-    color: #8B0000;
-    border-top: 3px solid #8B0000;
+    color: #FF0000;
+    padding: 15px;
+    border-top: 3px solid #FF0000; /* Red border */
 }
