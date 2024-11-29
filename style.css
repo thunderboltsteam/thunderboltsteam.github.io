@@ -110,3 +110,20 @@ footer {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin: 10px auto;
 }
+.logo-container {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+}
