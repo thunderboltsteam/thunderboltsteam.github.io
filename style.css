@@ -15,7 +15,7 @@ header {
     align-items: center;
     padding: 20px;
     background-color: #000;
-    border-bottom: 3px solid #FF0000; /* Red accent */
+    border-bottom: 3px solid #B19CD9; /* Light purple accent */
 }
 
 .logo-container {
@@ -32,14 +32,14 @@ header {
 .logo-text {
     font-size: 2em;
     font-weight: bold;
-    color: #FF0000; /* Red logo text */
+    color: #B19CD9; /* Light purple text */
 }
 
 /* Navigation */
 nav {
     background-color: #111; /* Slightly lighter black */
     padding: 10px 0;
-    border-bottom: 2px solid #FF0000; /* Red accent */
+    border-bottom: 2px solid #B19CD9; /* Light purple accent */
 }
 
 .nav-links {
@@ -60,7 +60,7 @@ nav {
 }
 
 .nav-links a:hover {
-    background-color: #FF0000; /* Red hover */
+    background-color: #B19CD9; /* Light purple hover */
     color: #000; /* Black text on hover */
     border-radius: 5px;
 }
@@ -73,7 +73,7 @@ main {
 h1 {
     font-size: 2.5em;
     margin-bottom: 20px;
-    color: #FF0000; /* Red title */
+    color: #B19CD9; /* Light purple title */
 }
 
 p {
@@ -92,21 +92,21 @@ p {
     padding: 10px 20px;
     font-size: 1em;
     color: #fff;
-    background-color: #FF0000; /* Red button */
+    background-color: #B19CD9; /* Light purple button */
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s, transform 0.3s;
 }
 
 .button:hover {
-    background-color: #cc0000; /* Darker red */
+    background-color: #a082c3; /* Slightly darker purple */
     transform: scale(1.05);
 }
 
 /* Footer */
 footer {
     background-color: #000;
-    color: #FF0000;
+    color: #B19CD9;
     padding: 15px;
-    border-top: 3px solid #FF0000; /* Red border */
+    border-top: 3px solid #B19CD9; /* Light purple border */
 }
