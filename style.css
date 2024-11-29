@@ -101,3 +101,12 @@ footer {
     background-color: #555;
     transform: scale(1.05);
 }
+.media-grid iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px auto;
+}
