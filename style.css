@@ -1,83 +1,63 @@
+/* Body and Header Styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: #1a1a1a; /* Dark background */
+    color: #fff; /* White text for contrast */
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1em 2em;
-    background-color: #333;
-    color: white;
+    padding: 10px 20px;
+    background-color: #000; /* Black header */
+    border-bottom: 3px solid #8B0000; /* Dark red accent */
 }
 
-header .logo {
-    font-size: 1.5em;
+/* Logo and Text */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    max-width: 40px; /* Smaller logo */
+    max-height: 40px;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 1.8em;
     font-weight: bold;
+    color: #fff;
 }
 
-header .navbar {
+/* Navigation Menu */
+.nav-links {
+    list-style: none;
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 
-header .nav-links {
-    display: flex;
-    list-style-type: none;
+.nav-links li {
+    margin: 0 15px;
 }
 
-header .nav-links li {
-    margin: 0 1em;
-}
-
-header .nav-links a {
+.nav-links a {
     text-decoration: none;
-    color: white;
+    color: #fff;
+    font-size: 1.1em;
+    transition: color 0.3s;
 }
 
-header .burger {
-    display: none;
-    cursor: pointer;
+.nav-links a:hover {
+    color: #8B0000; /* Dark red on hover */
 }
 
-header .burger div {
-    width: 25px;
-    height: 3px;
-    background: white;
-    margin: 5px;
-    transition: 0.3s;
-}
-
-main {
-    padding: 2em;
-    text-align: center;
-}
-
-.media-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 2em;
-    padding: 2em;
-}
-
-.media-item img, .media-item video {
-    max-width: 100%;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-footer {
-    text-align: center;
-    padding: 1em 0;
-    background-color: #333;
-    color: white;
-}
-
+/* Buttons */
 .button-container {
     margin-top: 20px;
     display: flex;
@@ -86,44 +66,26 @@ footer {
 }
 
 .button {
-    display: inline-block;
     padding: 10px 20px;
     font-size: 1em;
     font-weight: bold;
-    color: white;
-    background-color: #333;
+    color: #fff;
+    background-color: #8B0000; /* Dark red button */
     text-decoration: none;
     border-radius: 5px;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+    transition: background-color 0.3s, transform 0.2s;
 }
 
 .button:hover {
-    background-color: #555;
+    background-color: #ff4040; /* Lighter red on hover */
     transform: scale(1.05);
 }
-.media-grid iframe {
-    width: 100%;
-    max-width: 560px;
-    height: 315px;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin: 10px auto;
-}
-.logo-container {
-    display: flex;
-    align-items: center;
-    padding: 10px 20px;
-}
 
-.logo {
-    max-width: 50px;
-    max-height: 50px;
-    margin-right: 10px;
-}
-
-.logo-text {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: white;
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #000;
+    color: #8B0000;
+    border-top: 3px solid #8B0000;
 }
