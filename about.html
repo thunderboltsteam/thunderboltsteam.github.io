@@ -5,32 +5,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About - Thunderbolts Team</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Add a small fix for the logo in the header */
+        .logo {
+            display: inline-block;
+            margin-left: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        /* Ensure the logo and navbar items are aligned */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #333;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+
+        .nav-links li {
+            margin-left: 20px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        /* Burger menu fix */
+        .burger {
+            display: none;
+        }
+
+        @media screen and (max-width: 768px) {
+            .navbar {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .burger {
+                display: block;
+                cursor: pointer;
+            }
+
+            .nav-links {
+                flex-direction: column;
+                display: none;
+                width: 100%;
+            }
+
+            .nav-links li {
+                margin-left: 0;
+                margin-bottom: 10px;
+            }
+
+            .nav-links.active {
+                display: block;
+            }
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <div class="logo">Thunderbolts</div>
-        <nav class="navbar">
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="images.html">Images</a></li>
-                <li><a href="videos.html">Videos</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-            <div class="burger">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <h1>About Thunderbolts Team</h1>
-        <p>The Thunderbolts Team Website v2 is a platform to facilitate testing of media assets by QA engineers.</p>
-        <p>This site is built with simplicity and modern aesthetics to ensure effective testing workflows.</p>
-    </main>
-    <footer>
-        <p>&copy; 2024 Thunderbolts Team. All Rights Reserved.</p>
-    </footer>
-    <script src="scripts/script.js"></script>
+<header>
+    <div class="logo">Thunderbolts</div>
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="images.html">Images</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <h1>About Thunderbolts Team</h1>
+    <p>The Thunderbolts Team Website v2 is a platform to facilitate testing of media assets by QA engineers.</p>
+    <p>This site is built with simplicity and modern aesthetics to ensure effective testing workflows.</p>
+</main>
+
+<footer>
+    <p>&copy; 2024 Thunderbolts Team. All Rights Reserved.</p>
+</footer>
+
+<script src="scripts/script.js"></script>
 </body>
 </html>
