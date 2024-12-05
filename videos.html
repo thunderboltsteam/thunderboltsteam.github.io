@@ -5,50 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Videos - Thunderbolts Team</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        /* Added styles to fix logo positioning */
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px 20px;
-            background-color: #333; /* Change background color as needed */
-        }
-
-        .logo {
-            font-size: 24px;
-            color: white;
-            font-weight: bold;
-        }
-
-        .navbar {
-            display: flex;
-            justify-content: flex-end;
-            width: 60%;
-        }
-
-        .nav-links {
-            display: flex;
-            gap: 20px;
-        }
-
-        .nav-links li {
-            list-style: none;
-        }
-
-        .nav-links li a {
-            text-decoration: none;
-            color: white;
-        }
-
-        .burger {
-            display: none;
-        }
-    </style>
 </head>
 <body>
 <header>
-    <div class="logo">Thunderbolts</div>
+    <div class="logo-container">
+        <img src="https://img.icons8.com/ios-filled/50/FF0000/lightning-bolt.png" alt="Thunderbolts Logo" class="logo">
+        <div class="logo-text">Thunderbolts</div>
+    </div>
     <nav class="navbar">
         <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
@@ -63,107 +26,187 @@
         </div>
     </nav>
 </header>
+
 <main>
     <h1>Videos</h1>
     <p>Explore and manage various video categories below.</p>
 
     <section>
-        <h2>Edited Videos</h2>
-        <p>No videos available for this category yet.</p>
-    </section>
-
-    <section>
-        <h2>Base Videos</h2>
+        <h2>Samsung Videos</h2>
         <div class="media-grid">
             <div class="media-item">
-                <video controls width="120" height="80">
-                    <source src="media/videos/sample1.mp4" type="video/mp4">
+                <video width="200" height="auto" controls>
+                    <source src="Clients/Videos/samsung1.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
-                <p>Base Video 1</p>
+                <p>Samsung Video 1</p>
+            </div>
+            <div class="media-item">
+                <video width="200" height="auto" controls>
+                    <source src="Clients/Videos/samsung2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Samsung Video 2</p>
+            </div>
+            <div class="media-item">
+                <video width="200" height="auto" controls>
+                    <source src="Clients/Videos/samsung3.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Samsung Video 3</p>
+            </div>
+            <div class="media-item">
+                <video width="200" height="auto" controls>
+                    <source src="Clients/Videos/samsung4.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Samsung Video 4</p>
             </div>
         </div>
     </section>
 
     <section>
-        <h2>YouTube Embed</h2>
-        <iframe width="120" height="80" src="https://www.youtube.com/embed/VQYrI3xsotE"
-                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-                encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-        </iframe>
+        <h2>Voices</h2>
+        <div class="media-grid">
+            <div class="media-item">
+                <video width="200" height="auto" controls>
+                    <source src="Clients/Videos/voice1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Voice Video 1</p>
+            </div>
+            <div class="media-item">
+                <video width="200" height="auto" controls>
+                    <source src="Clients/Videos/voice2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Voice Video 2</p>
+            </div>
+            <div class="media-item">
+                <video width="200" height="auto" controls>
+                    <source src="Clients/Videos/voice3.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Voice Video 3</p>
+            </div>
+            <div class="media-item">
+                <video width="200" height="auto" controls>
+                    <source src="Clients/Videos/voice4.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Voice Video 4</p>
+            </div>
+        </div>
     </section>
 
     <section>
-        <h2>Music Videos</h2>
+        <h2>Lyrics</h2>
         <div class="media-grid">
             <div class="media-item">
-                <video controls width="120" height="80">
+                <video width="200" height="auto" controls>
                     <source src="Clients/Videos/lyrics1.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
-                <p>Lyrics 1</p>
+                <p>Lyrics Video 1</p>
             </div>
             <div class="media-item">
-                <video controls width="120" height="80">
+                <video width="200" height="auto" controls>
                     <source src="Clients/Videos/lyrics2.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
-                <p>Lyrics 2</p>
+                <p>Lyrics Video 2</p>
             </div>
             <div class="media-item">
-                <video controls width="120" height="80">
+                <video width="200" height="auto" controls>
                     <source src="Clients/Videos/lyrics3.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
-                <p>Lyrics 3</p>
+                <p>Lyrics Video 3</p>
             </div>
             <div class="media-item">
-                <video controls width="120" height="80">
+                <video width="200" height="auto" controls>
                     <source src="Clients/Videos/lyrics4.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
-                <p>Lyrics 4</p>
+                <p>Lyrics Video 4</p>
             </div>
         </div>
     </section>
 
     <section>
-        <h2>Philip Morris Ads</h2>
+        <h2>Product Videos</h2>
         <div class="media-grid">
             <div class="media-item">
-                <video controls width="120" height="80">
-                    <source src="Clients/Videos/voices1.mp4" type="video/mp4">
+                <video width="200" height="auto" controls>
+                    <source src="Clients/Videos/product1.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
-                <p>Philip Morris Ad - Voices 1</p>
+                <p>Product Video 1</p>
             </div>
             <div class="media-item">
-                <video controls width="120" height="80">
-                    <source src="Clients/Videos/voices2.mp4" type="video/mp4">
+                <video width="200" height="auto" controls>
+                    <source src="Clients/Videos/product2.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
-                <p>Philip Morris Ad - Voices 2</p>
+                <p>Product Video 2</p>
             </div>
             <div class="media-item">
-                <video controls width="120" height="80">
-                    <source src="Clients/Videos/voices3.mp4" type="video/mp4">
+                <video width="200" height="auto" controls>
+                    <source src="Clients/Videos/product3.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
-                <p>Philip Morris Ad - Voices 3</p>
+                <p>Product Video 3</p>
             </div>
             <div class="media-item">
-                <video controls width="120" height="80">
-                    <source src="Clients/Videos/voices4.mp4" type="video/mp4">
+                <video width="200" height="auto" controls>
+                    <source src="Clients/Videos/product4.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
-                <p>Philip Morris Ad - Voices 4</p>
+                <p>Product Video 4</p>
             </div>
         </div>
     </section>
+
+    <section>
+        <h2>Brand Commercials</h2>
+        <div class="media-grid">
+            <div class="media-item">
+                <video width="200" height="auto" controls>
+                    <source src="Clients/Videos/brand1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Brand Commercial 1</p>
+            </div>
+            <div class="media-item">
+                <video width="200" height="auto" controls>
+                    <source src="Clients/Videos/brand2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Brand Commercial 2</p>
+            </div>
+            <div class="media-item">
+                <video width="200" height="auto" controls>
+                    <source src="Clients/Videos/brand3.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Brand Commercial 3</p>
+            </div>
+            <div class="media-item">
+                <video width="200" height="auto" controls>
+                    <source src="Clients/Videos/brand4.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Brand Commercial 4</p>
+            </div>
+        </div>
+    </section>
+
 </main>
+
 <footer>
     <p>&copy; 2024 Thunderbolts Team. All Rights Reserved.</p>
 </footer>
+
 <script src="scripts/script.js"></script>
 </body>
 </html>
