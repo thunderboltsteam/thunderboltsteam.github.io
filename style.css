@@ -110,3 +110,34 @@ footer {
     padding: 15px;
     border-top: 3px solid #B19CD9; /* Light purple border */
 }
+/* Grid container for videos */
+.media-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Individual video item */
+.media-item {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Video size */
+.media-item video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Text under videos */
+.media-item p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
