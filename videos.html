@@ -19,152 +19,67 @@
             <li><a href="videos.html">Videos</a></li>
             <li><a href="about.html">About</a></li>
         </ul>
-        <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-        </div>
     </nav>
 </header>
 
 <main>
     <h1>Videos</h1>
-     <video width="640" height="360" controls>
-        <source src="video.mp41" type="video/mp4">
-        <source src="video.ogg1" type="video/ogg">
-        <!-- Fallback text -->
+    <video width="640" height="360" controls>
+        <source src="videos/sample-video.mp4" type="video/mp4">
+        <source src="videos/sample-video.ogg" type="video/ogg">
         Your browser does not support the video tag.
     </video>
     <p>Explore and manage various video categories below.</p>
+    
     <section>
         <h2>Apple Videos</h2>
         <div class="media-grid">
             <div class="media-item">
-                <p>Apple Video 1</p>
-            </div>
-            <div class="media-item">
+                <video width="320" height="180" controls>
+                    <source src="videos/apple-video1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Apple Product Launch</p>
             </div>
         </div>
     </section>
     
-<!-- removed section here -->
-    
-    <!-- New Section for YouTube Embedded Videos -->
     <section>
-        <h2>Random YouTube Videos</h2>
+        <h2>Popular YouTube Videos</h2>
         <div class="media-grid">
             <div class="media-item">
-                <iframe width="200" height="auto" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-                <p>YouTube Video 1</p>
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+                <p>Never Gonna Give You Up</p>
             </div>
             <div class="media-item">
-                <iframe width="200" height="auto" src="https://www.youtube.com/embed/kJQP7kiw5Fk" frameborder="0" allowfullscreen></iframe>
-                <p>YouTube Video 2</p>
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/kJQP7kiw5Fk" frameborder="0" allowfullscreen></iframe>
+                <p>Despacito</p>
             </div>
             <div class="media-item">
-                <iframe width="200" height="auto" src="https://www.youtube.com/embed/3JZ_D3ELwOQ" frameborder="0" allowfullscreen></iframe>
-                <p>YouTube Video 3</p>
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/3JZ_D3ELwOQ" frameborder="0" allowfullscreen></iframe>
+                <p>Shape of You</p>
             </div>
         </div>
     </section>
-
-<!--     Removed Section 2 here -->
-
-    <style>
-        .navigation-buttons {
-            margin-top: 40px;
-            text-align: center;
-        }
-
-        .button-container {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-        }
-
-        .nav-button {
-            text-decoration: none;
-            padding: 10px 20px;
-            background-color: #5218c6;
-            color: white;
-            font-size: 16px;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-
-        .nav-button:hover {
-            background-color: #873cd8;
-        }
-    </style>
+    
     <section class="brand-ads">
         <h2>Brand Advertisements</h2>
-
-        <!-- YouTube Video 1: Example for Heinz -->
         <div class="ad-container">
             <div class="overlay-text">
                 <h3>Heinz: Quality You Can Trust</h3>
-                <p>Check out the latest from Heinz, the brand that delivers taste.</p>
+                <p>Check out the latest from Heinz.</p>
             </div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/example-video"
-                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/FjHGZj2IjBk" frameborder="0" allowfullscreen></iframe>
         </div>
-
-        <!-- YouTube Video 2: Example for Nike -->
         <div class="ad-container">
             <div class="overlay-text">
                 <h3>Nike: Just Do It</h3>
-                <p>Empower your game with Nike's latest sports gear.</p>
+                <p>Empower your game with Nike.</p>
             </div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/example-video"
-                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-        </div>
-
-        <!-- YouTube Video 3: Example for Spotify -->
-        <div class="ad-container">
-            <div class="overlay-text">
-                <h3>Spotify: Discover New Music</h3>
-                <p>Stream the world's best music anytime, anywhere.</p>
-            </div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/example-video"
-                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/WA4iX5D9Z64" frameborder="0" allowfullscreen></iframe>
         </div>
     </section>
-
-    <style>
-        .brand-ads {
-            text-align: center;
-            margin: 40px 0;
-        }
-
-        .ad-container {
-            position: relative;
-            margin-bottom: 30px;
-        }
-
-        .overlay-text {
-            position: absolute;
-            top: 10px;
-            left: 10px;
-            background-color: rgba(0, 0, 0, 0.5);
-            color: white;
-            padding: 10px;
-            border-radius: 5px;
-        }
-
-        .overlay-text h3 {
-            margin: 0;
-            font-size: 24px;
-        }
-
-        .overlay-text p {
-            margin: 0;
-            font-size: 16px;
-        }
-    </style>
-
+    
     <section class="navigation-buttons">
         <h2>Navigation</h2>
         <div class="button-container">
@@ -174,7 +89,6 @@
             <a href="about.html" class="nav-button">About</a>
         </div>
     </section>
-
 </main>
 
 <footer>
